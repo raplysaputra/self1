@@ -19,7 +19,7 @@ channel = LineChannel(aditmadzs)
 aditmadzs.log("Channel Access Token : " + str(channel.channelAccessToken))
 
 #ki = LineClient()
-ki = LineClient(authToken='ISI TOKEN MU CINTA')
+ki = LineClient(authToken='EwgUbapCqI5q3p785dRb.8v6+pKnYf7/P8S8we/sowW.YP+1TjQmAp61TXOZDVPRNq46rHvCSSeIw4dFIJ7238w=')
 ki.log("Auth Token : " + str(ki.authToken))
 channel1 = LineChannel(ki)
 ki.log("Channel Access Token : " + str(channel1.channelAccessToken))
